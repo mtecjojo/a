@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/mycss.css" rel="stylesheet">
+      <script src="js/jquery-1.10.2.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+<title>BLOG</title>
+</head>
+
+<body >
+
+   
+<div class="container">
+    <div class="row">
+    
+    
+     <div class="col-xs-1"></div>
+     
+    <div class="col-xs-6"> <div ><span id="title_font">这是博客标题</span> <a href="#">首页</a> 》 <a href="#">内容</a>  </div></div>
+    
+        <div class="col-xs-5">     		 <div class="input-group">
+             
+               <form >
+                   <input type="text" class="form-control">
+                   <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">
+                         Go
+                      </button>
+                
+                   </span>
+                 </form>
+                </div><!-- /input-group --></div>
+    
+        
+  <!---------------------------end title---------------------------->
+   <div class=" col-xs-1"></div>
+     <div class=" col-xs-9">
+     
+     
+     <hr id="hr1" />
+     <div id="hightling"></div>
+     <p id="content_title" > JavaScript </p>	
+    <div id="hightling"></div>
+     <div id="text">
+     <p>据说，Netscape公司当年设计SSL协议的时候，有人提过，将
+     有链接都变成HTTPs开头的加密链接。</p>
+     <p>这个建议没有得到采纳，原因之一是HTTPs链接比不加密的HTTP链接
+     慢很多。（另一个原因好像是，HTTPs链接默认不能缓存。）</p>
+      <p>自从我知道这个掌故以后，脑袋中就有一个观念：HTTPs链接很慢。但是，它到底有多慢
+      ，我并没有一个精确的概念。直到今天我从一篇文章中，学到了测量HTTPs链接耗时的方法。</p>
+       <p>首先我解释一下，为什么HTTPs链接比较慢。</p>
+       <p>HTTPs链接和HTTP链接都建立在TCP协议之上。HTTP链接比较单纯，使用三个握手数据包建立连接之后
+       ，就可以发送内容数据了。</p>
+        <p>上图中，客户端首先发送SYN数据包，然后服务器发送SYN+ACK数据包，最后客户端发送ACK数据包，接下来就可以发送内容了。这三个数据包的发送过程，叫做TCP握手。YN+ACK</p>
+        <p>再来看HTTPs链接，它也采用TCP协议发送数据，所以它也需要上面的这三步握手过程。而且，在这三步结束以后，它还有一个SSL握手。</p>
+        <p>所以，HTTPs肯定比HTTP耗时，这就叫SSL延迟。</p>
+     </div>
+    
+
+
+  <!---------------------------end title----------------------------> 
+  <div id="hightling"></div>
+   <hr id="hr1" />
+     <div id="hightling"></div>
+   <h1>留言</h1>
+    <hr class="dotline" />
+    
+    
+    
+   <div class="yan">
+   <p>adsfyu:</p>
+   <p>现在计算资源和网络资源都提高了很多，可以推广https了。</p>
+ <p class="text-right"> <a href="#">2014-1-1</a> |  <a href="#">author:admin</a></p> 
+    
+   </div>
+
+  
+  
+     <hr class="dotline" />
+     
+     
+       
+   <div class="yan">
+   <p>adsfyu:</p>
+  
+   
+  <!--留言-->
+   <div class="well well-sm">
+  <h4>引用TheFappening的发言：</h4>
+  <p>現在計算資源和網絡資源都提高了很多，可以推廣https了。</p>
+   
+   </div>
+   <!--留言--> 
+   
+   
+      <p>现在计算资源和网络资源都提高了很多，可以推广https了。</p> 
+
+ <p class="text-right"> <a href="#">2014-1-1</a> |  <a href="#">author:admin</a></p> 
+   </div>
+  
+  <!---------------------------footer----------------------------> 
+   <hr id="hr1" />
+   
+     
+         <address class="text-right">
+     	 <strong>Some Company, Inc.</strong> 007 street Some City, State XXXXX
+         <abbr title="Phone">P:</abbr> (123) 456-7890
+         </address>
+     </div>
+      <div class=" col-xs-2"></div>
+      
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+   
+    </div><!--row-->
+</div><!--conntainer-->
+
+</body>
+</html>

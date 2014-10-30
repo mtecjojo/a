@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#title_font
+{
+	color:#3f3f3f; font-size:1.6em; padding-right:20px; 
+}
+.listtitle{ padding-left:20px;color:#000;}
+
+#listtitle{ height:50px; margin:0;}
+#listtitle a{ color:#000;font-size:1.4em; padding-right:30px; text-decoration:underline }
+#listtitle a:hover{ color:#777777;}
+
+#content_title{ font-size:1.8em; font-weight:bold;font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;}
+#hr1{ border-color:#999999; }
+
+#hightling{ height:20px;}
+.dotline { 
+border-top:0.1em dashed #999}
+#panlecolor{ background-color:#d9edf7; }
+#panlecolor ul li{ height:30px; color:#000;}
+#panlecolor ul li a{color:#000; font-size:1.3em;}
+#text{ line-height:1.5; }
+#text p{ padding-bottom:10px;font-size:1.2em; }
+
+.yan{font-size:1.2em;}
+.yan a{color:#000; font-size:.8em;}
